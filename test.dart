@@ -1,6 +1,11 @@
 void main() {
-  print(title);
-  print(message);
+  print(title());
+  print(message());
+  print(description());
+}
+
+String description() {
+  return 'Some description';
 }
 
 String message() {
